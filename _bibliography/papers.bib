@@ -3,82 +3,54 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{ahmed2021dfr,
+  title={DFR-TSD: A deep learning based framework for robust traffic sign detection under challenging weather conditions},
+  author={Ahmed, Sabbir and Kamal, Uday and Hasan, Md Kamrul},
+  abstract={Robust traffic sign detection and recognition (TSDR) is of paramount importance for the successful realization of autonomous vehicle technology. The importance of this task has led to vast amount of research efforts and many promising methods have been proposed in the existing literature. However, most of these methods have been evaluated on clean and challenge-free datasets and overlooked the performance deterioration associated with different challenging conditions (CCs) that obscure the traffic-sign images captured in the wild. In this paper, we look at the TSDR problem under CCs and focus on the performance degradation associated with them. To this end, we propose a Convolutional Neural Network (CNN) based prior enhancement focused TSDR framework. Our modular approach consists of a CNN-based challenge classifier, Enhance-Net–an encoder-decoder CNN architecture for image enhancement, and two separate CNN architectures for sign-detection and classification. We propose a novel training pipeline for Enhance-Net that focuses on the enhancement of the traffic sign regions (instead of the whole image) in the challenging images subject to their accurate detection. We used CURE-TSD dataset consisting of traffic videos captured under different CCs to evaluate the efficacy of our approach. We experimentally show that our method obtains an overall precision and recall of 91.1% and 70.71% that is 7.58% and 35.90% improvement in precision and recall, respectively, compared to the current benchmark. Furthermore, we compare our approach with different CNN-based TSDR methods and show that our approach outperforms them by a large margin.},
+  journal={IEEE Transactions on Intelligent Transportation Systems (T-ITS),},
+  year={2021},
+  preview={dfrtsd2.png},
+  selected={true},
+  html={https://ieeexplore.ieee.org/abstract/document/9345465},
+  publisher={IEEE}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+@INPROCEEDINGS{spatial_averaging,
+  author={Ahmed, Sabbir and Nozari, Erfan},
+  abstract={Understanding the dynamics resulting from large-scale populations of systems poses one of the greatest challenges ahead of modern science. While it is often expected that the emerging dynamics from such populations compound in complexity, we here show that, on the contrary, the aggregation of complex individual dynamics can in fact lead to simpler behavior overall. In particular, mounting empirical evidence from neuroscience and beyond has pointed out the linearity of macroscopic dynamics that result from the interaction of large populations of microscopic subsystems, despite the highly nonlinear dynamics possessed by the individual subsystems. Rigorous analyses and theoretical grounds for such observations, however, have remained lacking. In this paper, we develop a general theoretical framework showing that the average dynamics of a broad family of populations of nonlinear stochastic subsystems converge to linear time-varying (LTV) dynamics transiently and to linear time-invariant (LTI) dynamics in steady state. Simulations are provided to illustrate this effect in populations of static (feedforward) nonlinear maps as well as a wide range of nonlinear systems exhibiting bistable, limit cycle, and chaotic dynamics.},
+  booktitle={2022 IEEE 61st Conference on Decision and Control (CDC)}, 
+  title={On the Linearizing Effect of Spatial Averaging in Large-Scale Populations of Homogeneous Nonlinear Systems}, 
+  year={2022},
+  preview={spatial_averaging.png},
+  html={https://ieeexplore.ieee.org/abstract/document/9993260},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@article{ahmed2023ssda,
+author={Sabbir Ahmed and Abdullah Al Arafat and Mamshad Nayeem Rizvee and Rahim Hossain and Zishan Guo and Adnan Siraj Rakin},
+abstract={Source-free domain adaptation (SFDA) is a popular unsupervised domain adaptation method where a pre-trained model from a source domain is adapted to a target domain without accessing any source data. Despite rich results in this area, existing literature overlooks the security challenges of the unsupervised SFDA setting in presence of a malicious source domain owner. This work investigates the effect of a source adversary which may inject a hidden malicious behavior (Backdoor/Trojan) during source training and potentially transfer it to the target domain even after benign training by the victim (target domain owner). Our investigation of the current SFDA setting reveals that because of the unique challenges present in SFDA (e.g., no source data, target label), defending against backdoor attack using existing defenses become practically ineffective in protecting the target model. To address this, we propose a novel target domain protection scheme called secure source-free domain adaptation (SSDA). SSDA adopts a single-shot model compression of a pre-trained source model and a novel knowledge transfer scheme with a spectral-norm-based loss penalty for target training. The proposed static compression and the dynamic training loss penalty are designed to suppress the malicious channels responsive to the backdoor during the adaptation stage. At the same time, the knowledge transfer from an uncompressed auxiliary model helps to recover the benign test accuracy. Our extensive evaluation on multiple dataset and domain tasks against recent backdoor attacks reveal that the proposed SSDA can successfully defend against strong backdoor attacks with little to no degradation in test accuracy compared to the vulnerable baseline SFDA methods. Our code is available at https://github.com/ML-Security-Research-LAB/SSDA.},
+journal={International Conference of Computer Vision (ICCV) (yet to appear)}, 
+year={2023},
+preview={ssda.png},
+selected={true},
+title={SSDA: Secure Source-Free Domain Adaptation},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+  @INPROCEEDINGS{temporal_averaging,
+  author={Ahmed, Sabbir and Nozari, Erfan},
+  booktitle={2023 American Control Conference (ACC)}, 
+  title={On the Linearizing Effect of Temporal Averaging in Nonlinear Dynamical Systems}, 
+  year={2023},
+  preview={temporal_averaging.png}}
+
+  @article{ahmed2020reconet,
+  title={Reconet: Multi-level preprocessing of chest x-rays for covid-19 detection using convolutional neural networks},
+  author={Ahmed, Sabbir and Yap, Moi Hoon and Tan, Maxine and Hasan, Md Kamrul},
+  abstract={Life-threatening COVID-19 detection from radiomic features has become a dire need of the present time for infection control and socio-economic crisis management around the world. In this paper, a novel convolutional neural network (CNN) architecture, ReCoNet (residual image-based COVID-19 detection network), is proposed for COVID-19 detection. This is achieved from chest X-ray (CXR) images shedding light on the preprocessing task considered to be very useful for enhancing the COVID-19 fingerprints. The proposed modular architecture consists of a CNN-based multi-level preprocessing filter block in cascade with a multi-layer CNN-based feature extractor and a classification block. A multi-task learning loss function is adopted for optimization of the preprocessing block trained end-to-end with the rest of the proposed network. Additionally, a data augmentation technique is applied for boosting the network performance. The whole network when pre-trained end-to-end on the CheXpert open source dataset, and trained and tested with the COVIDx dataset of 15,134 original CXR images yielded an overall benchmark accuracy, sensitivity, and specificity of 97.48%, 96.39%, and 97.53%, respectively. The immense potential of ReCoNet may be exploited in clinics for rapid and safe detection of COVID-19 globally, in particular in the low and middle income countries where RT-PCR labs and/or kits are in a serious crisis.},
+  journal={medrxiv},
+  pages={2020--07},
+  year={2020},
+  preview={reconet.jpg},
+  html={https://www.medrxiv.org/content/10.1101/2020.07.11.20149112v1.article-info}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
