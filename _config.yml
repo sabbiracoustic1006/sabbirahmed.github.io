@@ -73,11 +73,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: sabbiracoustic1006 # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
+twitter_username: Sahmed9Ahmed # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: sabbirahmed1006 # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: TVcMzOAAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
@@ -106,9 +106,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-
+contact_note: 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
@@ -137,9 +135,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # related_blog_posts:
 #   enabled: false
 #   max_related: 5
-blog_name: Sabbir's Blog  # your blog must have a name for it to show up in the nav bar
+blog_name:    # your blog must have a name for it to show up in the nav bar
 blog_description: Coming Soon
-blog_nav_title: Blog
+blog_nav_title: 
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -185,7 +183,7 @@ collections:
     permalink: /news/:path/
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /Projects/:path/
 
 announcements:
   enabled: true
