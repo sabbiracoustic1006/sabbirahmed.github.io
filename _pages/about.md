@@ -18,10 +18,10 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi, I am Sabbir Ahmed! I'm a first year CS PhD student at State University of New York at Binghamton advised by [Dr. Adnan Siraj Rakin](https://www.adnansirajrakin.com/). 
+Hi, I am Sabbir Ahmed! I'm a Second year CS PhD student at State University of New York at Binghamton advised by [Dr. Adnan Siraj Rakin](https://www.adnansirajrakin.com/). 
 
 <!-- I am deeply interested in creating cutting-edge, robust Deep Learning Algorithms. Key areas of my interest are Semi/Unsupervised learning, Federated Learning, and Large Language Models. In my current research, I'm working on improving the robustness and generalization of Semi/Unsupervised Learning Algorithms, Federated Learning and Large Language Models. -->
-I am passionate about enhancing the safety, generalization, and robustness of deep learning algorithms. Currently, I'm working on these aspects in Semi/Unsupervised Learning, Federated Learning, and Large Language Models.
+I am interested in enhancing the safety, generalization, and robustness of deep learning algorithms. Currently, I'm working on these aspects in Semi/Unsupervised Learning, Federated Learning, and Large Language Models.
 
 Before starting my PhD journey, I earned my MS in Electrical Engineering from the University of California Riverside [(UCR)](https://www.ucr.edu/). My educational roots trace back to the Bangladesh University of Engineering and Technology [(BUET)](https://www.buet.ac.bd/web/#/), where I pursued my bachelor's degree in Electrical and Electronic Engineering. Following my BSc, I took on a role as a Machine Learning Engineer at REVE Systems, Bangladesh, becoming a part of the AI team that developed the pioneering Grammar and spell checker for the Bengali language, named [Shothik](http://spell.bangla.gov.bd/). My academic path has been enriched by a multitude of projects spanning Deep Learning, Computer Vision, and NLP.
 
