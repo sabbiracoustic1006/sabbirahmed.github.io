@@ -18,7 +18,8 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi, I am Sabbir Ahmed! I'm a Second year CS PhD student at State University of New York at Binghamton advised by [Dr. Adnan Siraj Rakin](https://www.adnansirajrakin.com/). 
+Hi, I am Sabbir Ahmed! I'm a Second year CS PhD student at State University of New York-Binghamton.
+ <!-- advised by [Dr. Adnan Siraj Rakin](https://www.adnansirajrakin.com/).  -->
 
 <!-- I am deeply interested in creating cutting-edge, robust Deep Learning Algorithms. Key areas of my interest are Semi/Unsupervised learning, Federated Learning, and Large Language Models. In my current research, I'm working on improving the robustness and generalization of Semi/Unsupervised Learning Algorithms, Federated Learning and Large Language Models. -->
 I am interested in enhancing the safety, generalization, and robustness of deep learning algorithms. Currently, I'm working on these aspects in Semi/Unsupervised Learning, Federated Learning, and Large Language Models.
