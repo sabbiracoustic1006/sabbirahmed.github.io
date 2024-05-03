@@ -3,11 +3,22 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{ahmed2024deeptroj,
+author={Sabbir Ahmed and Ranyang Zhou and Shaahin Angizi and Adnan Siraj Rakin},
+abstract={To insert Trojan into a Deep Neural Network (DNN), the existing attack assumes the attacker can access the victim's training facilities. However, a realistic threat model was recently developed by leveraging memory fault to inject Trojans at the inference stage. In this work,  we develop a novel Trojan attack by adopting a unique memory fault injection technique that can inject bit-flip into the page table of the main memory. In the main memory, each weight block consists of a group of weights located at a specific address of a DRAM row. A bit-flip in the page frame number replaces a target weight block of a DNN model with another replacement weight block. To develop a successful Trojan attack leveraging this unique fault model, the attacker must solve three key challenges: i) how to identify a minimum set of target weight blocks to be modified? ii) how to identify the corresponding optimal replacement weight block? iii) how to optimize the trigger to maximize the attacker's objective given a target and replacement weight block set? We address them by proposing a novel Deep-TROJ attack algorithm that can identify a minimum set of vulnerable target and corresponding replacement weight blocks while optimizing the trigger at the same time. We evaluate the performance of our proposed Deep-TROJ on CIFAR-10, CIFAR-100, and ImageNet dataset for fifteen different DNN architectures, including vision transformers. Proposed  Deep-TROJ is the most successful one to date that does not require access to training facilities while successfully bypassing the existing defenses. Our code is available at https://github.com/ML-Security-Research-LAB/Deep-TROJ.},
+journal={Computer Vision and Pattern Recognition Conference (CVPR) (yet to appear)}, 
+year={2024},
+preview={deep_troj.png},
+selected={true},
+title={Deep-TROJ: An Inference Stage Trojan Insertion Algorithm through Efficient Weight Replacement Attack}
+}
+
+
 @article{ahmed2021dfr,
   title={DFR-TSD: A deep learning based framework for robust traffic sign detection under challenging weather conditions},
   author={Ahmed, Sabbir and Kamal, Uday and Hasan, Md Kamrul},
   abstract={Robust traffic sign detection and recognition (TSDR) is of paramount importance for the successful realization of autonomous vehicle technology. The importance of this task has led to vast amount of research efforts and many promising methods have been proposed in the existing literature. However, most of these methods have been evaluated on clean and challenge-free datasets and overlooked the performance deterioration associated with different challenging conditions (CCs) that obscure the traffic-sign images captured in the wild. In this paper, we look at the TSDR problem under CCs and focus on the performance degradation associated with them. To this end, we propose a Convolutional Neural Network (CNN) based prior enhancement focused TSDR framework. Our modular approach consists of a CNN-based challenge classifier, Enhance-Net–an encoder-decoder CNN architecture for image enhancement, and two separate CNN architectures for sign-detection and classification. We propose a novel training pipeline for Enhance-Net that focuses on the enhancement of the traffic sign regions (instead of the whole image) in the challenging images subject to their accurate detection. We used CURE-TSD dataset consisting of traffic videos captured under different CCs to evaluate the efficacy of our approach. We experimentally show that our method obtains an overall precision and recall of 91.1% and 70.71% that is 7.58% and 35.90% improvement in precision and recall, respectively, compared to the current benchmark. Furthermore, we compare our approach with different CNN-based TSDR methods and show that our approach outperforms them by a large margin.},
-  journal={IEEE Transactions on Intelligent Transportation Systems (T-ITS),},
+  journal={IEEE Transactions on Intelligent Transportation Systems (T-ITS)},
   year={2021},
   preview={dfrtsd2.png},
   selected={true},
@@ -29,11 +40,12 @@
 @article{ahmed2023ssda,
 author={Sabbir Ahmed and Abdullah Al Arafat and Mamshad Nayeem Rizvee and Rahim Hossain and Zishan Guo and Adnan Siraj Rakin},
 abstract={Source-free domain adaptation (SFDA) is a popular unsupervised domain adaptation method where a pre-trained model from a source domain is adapted to a target domain without accessing any source data. Despite rich results in this area, existing literature overlooks the security challenges of the unsupervised SFDA setting in presence of a malicious source domain owner. This work investigates the effect of a source adversary which may inject a hidden malicious behavior (Backdoor/Trojan) during source training and potentially transfer it to the target domain even after benign training by the victim (target domain owner). Our investigation of the current SFDA setting reveals that because of the unique challenges present in SFDA (e.g., no source data, target label), defending against backdoor attack using existing defenses become practically ineffective in protecting the target model. To address this, we propose a novel target domain protection scheme called secure source-free domain adaptation (SSDA). SSDA adopts a single-shot model compression of a pre-trained source model and a novel knowledge transfer scheme with a spectral-norm-based loss penalty for target training. The proposed static compression and the dynamic training loss penalty are designed to suppress the malicious channels responsive to the backdoor during the adaptation stage. At the same time, the knowledge transfer from an uncompressed auxiliary model helps to recover the benign test accuracy. Our extensive evaluation on multiple dataset and domain tasks against recent backdoor attacks reveal that the proposed SSDA can successfully defend against strong backdoor attacks with little to no degradation in test accuracy compared to the vulnerable baseline SFDA methods. Our code is available at https://github.com/ML-Security-Research-LAB/SSDA.},
-journal={International Conference of Computer Vision (ICCV) (yet to appear)}, 
+journal={International Conference of Computer Vision (ICCV)}, 
 year={2023},
 preview={ssda.png},
 selected={true},
 title={SSDA: Secure Source-Free Domain Adaptation},
+html={https://openaccess.thecvf.com/content/ICCV2023/html/Ahmed_SSDA_Secure_Source-Free_Domain_Adaptation_ICCV_2023_paper.html},
 }
 
   @INPROCEEDINGS{temporal_averaging,
