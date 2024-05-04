@@ -18,13 +18,13 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi, I am Sabbir Ahmed! I'm a Second year CS PhD student at State University of New York-Binghamton.
- <!-- advised by [Dr. Adnan Siraj Rakin](https://www.adnansirajrakin.com/).  -->
+Hi, I'm Sabbir Ahmed, a second-year CS PhD student at SUNY Binghamton. I'm interested in improving the safety, robustness, efficiency and generalization of deep learning algorithms, focusing on Semi/Unsupervised Learning, Federated Learning, and LLMs. 
 
-<!-- I am deeply interested in creating cutting-edge, robust Deep Learning Algorithms. Key areas of my interest are Semi/Unsupervised learning, Federated Learning, and Large Language Models. In my current research, I'm working on improving the robustness and generalization of Semi/Unsupervised Learning Algorithms, Federated Learning and Large Language Models. -->
-I am interested in enhancing the safety, generalization, and robustness of deep learning algorithms. Currently, I'm working on these aspects in Semi/Unsupervised Learning, Federated Learning, and Large Language Models.
+Before starting my PhD, I completed my MS in Electrical Engineering from University of California Riverside [(UCR)](https://www.ucr.edu/) and my BS in Electrical and Electronic Engineering from Bangladesh University of Engineering and Technology [(BUET)](https://www.buet.ac.bd/web/#/). I also worked as a Machine Learning Engineer at REVE Systems, Bangladesh, where I contributed to developing a Bengali language grammar and spell checker named [Shothik](http://spell.bangla.gov.bd/). 
 
-Before starting my PhD journey, I earned my MS in Electrical Engineering from the University of California Riverside [(UCR)](https://www.ucr.edu/). My educational roots trace back to the Bangladesh University of Engineering and Technology [(BUET)](https://www.buet.ac.bd/web/#/), where I pursued my bachelor's degree in Electrical and Electronic Engineering. Following my BSc, I took on a role as a Machine Learning Engineer at REVE Systems, Bangladesh, becoming a part of the AI team that developed the pioneering Grammar and spell checker for the Bengali language, named [Shothik](http://spell.bangla.gov.bd/). My academic path has been enriched by a multitude of projects spanning Deep Learning, Computer Vision, and NLP.
+My research has been published in multiple top-tier AI/ML conferences including CVPR and ICCV.
+
+<!-- Additionally, I have participated in several international ML competitions on platforms like Kaggle, Driven Data, and Eval AI solving Computer Vision and NLP problems. Through my consistent participation and achievements on Kaggle, I also earned the Kaggle Competition Expert title. -->
 
 Feel free to reache me at: <span style="color:green">sahmed9@binghamton.edu</span>
 
